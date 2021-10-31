@@ -21,5 +21,11 @@ namespace MyNotepad
         {
             Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form Form2 = new Form2();
+            Form2.ShowDialog();
+        }
     }
 }
